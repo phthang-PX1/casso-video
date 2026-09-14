@@ -1,0 +1,53 @@
+{
+  "slug": "tin-dung-la-gi",
+  "voice": "BV421_vivn_streaming",
+  "rate": "1.0",
+  "cards": [
+    {
+      "id": "card_0a",
+      "component": "Card0aHook",
+      "text": "Bạn đã bao giờ mua trước, trả sau trên sàn Cam hay chưa? Đó là một hình thức của tín dụng."
+    },
+    {
+      "id": "card_0b",
+      "component": "Card0bTitle",
+      "text": "Vậy, tín dụng là gì?"
+    },
+    {
+      "id": "card_1",
+      "component": "Card1Hook",
+      "text": "Bạn vay tiền mua nhà, quẹt thẻ mua đồ, hay mua trả góp một chiếc điện thoại. Tất cả đều có một điểm chung: bạn đang dùng tiền của người khác, để trả sau.",
+      "note": "Embeds Card2Definition inline via a move-interpolation transition; owns the composition's `card1` top-level Series.Sequence, which is where card_2's own audio/visuals actually render too."
+    },
+    {
+      "id": "card_2",
+      "component": "Card2Definition",
+      "text": "Vậy thì, hiểu đơn giản, tín dụng là việc một bên, ngân hàng, tổ chức tài chính, hay người bán, cho bạn dùng một khoản tiền hoặc hàng hóa ngay bây giờ, rồi bạn trả lại sau, kèm một khoản lãi.",
+      "embeddedIn": "card_1",
+      "note": "Has its own audio/card_2.mp3 and is rendered with `embedded` prop from inside Card1Hook's own Sequence — but has no top-level Series.Sequence of its own in TinDungVideo.tsx."
+    },
+    {
+      "id": "card_3",
+      "component": "Card3Metaphor",
+      "text": "Hãy tưởng tượng tín dụng như một chiếc lò xo. Nó kéo dài sức mua của bạn ra trước thời gian thực tế bạn kiếm được tiền. Nhưng lò xo càng kéo dài, càng cần nhiều lực để kéo nó về đúng vị trí.",
+      "note": "Owns the composition's `card3` top-level Series.Sequence, shared with card_3b as one continuous audio-crossfaded scene."
+    },
+    {
+      "id": "card_3b",
+      "component": "Card3Metaphor",
+      "text": "Nhưng nếu lò xo bị kéo giãn quá lâu, không thể co lại về đúng vị trí nữa, thì nợ xấu sẽ xuất hiện.",
+      "embeddedIn": "card_3",
+      "note": "Has its own audio/card_3b.mp3, joined to card_3.mp3 via trimBefore inside Card3Metaphor's own file/Sequence — not a separate component, no top-level Series.Sequence of its own."
+    },
+    {
+      "id": "card_4",
+      "component": "Card4Benefits",
+      "text": "Dùng đúng cách, tín dụng giúp bạn xoay vòng vốn kịp lúc, mua thứ cần ngay hôm nay, và xây dựng lịch sử tài chính tốt. Bí quyết chỉ đơn giản: vay trong khả năng, và luôn trả đúng hạn."
+    },
+    {
+      "id": "card_5",
+      "component": "Card5Stats",
+      "text": "Và tín dụng cũng không phải là chuyện xa lạ gì ngày nay. Chỉ vài năm trước, mới 17% người Việt mua trước trả sau, giờ đã gần 49% còn thẻ tín dụng thì chiếm hơn nửa giá trị giao dịch thẻ cả nước. Nói cách khác, bạn có thể đã dùng tín dụng, chỉ là không để ý đến nó. Vậy, bạn đã thật sự biết tín dụng là gì chưa?"
+    }
+  ]
+}

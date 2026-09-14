@@ -1,0 +1,47 @@
+{
+  "name": "reicon-mcp",
+  "version": "1.1.102",
+  "type": "module",
+  "description": "MCP server and CLI for browsing and applying Reicon icons.",
+  "bin": {
+    "reicon-mcp": "bin/run.cjs"
+  },
+  "main": "./server/index.js",
+  "files": [
+    "bin",
+    "cli",
+    "server",
+    "core",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.cjs"
+  },
+  "keywords": [
+    "reicon",
+    "icons",
+    "mcp",
+    "model-context-protocol",
+    "svg"
+  ],
+  "author": "Dev Chauhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dqev/reicon.git",
+    "directory": "packages/reicon-mcp"
+  },
+  "homepage": "https://reicon.dev",
+  "bugs": {
+    "url": "https://github.com/dqev/reicon/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,642 @@
+[
+  {
+    "id": "char_alert_triangle_025c117a56",
+    "category": "character",
+    "name_display": "Alert Triangle",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/alert-triangle.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 1702,
+      "sha256": "50d2a010d86f645c43eaba51a63f5d54da8ab805329d5b53872fd84f2addffe0"
+    },
+    "subtype": "reicon icon: alert-triangle",
+    "illustration_role": "metaphor",
+    "use_when": "Sai lệch, cảnh báo, giao dịch bất thường cần chú ý.",
+    "avoid_when": "Không dùng cho kết quả thành công hoặc trung tính.",
+    "emotional_tone": [
+      "urgent",
+      "serious"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_building_3e7a47957d",
+    "category": "character",
+    "name_display": "Building",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/building.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 2636,
+      "sha256": "a14caf1ad590b796d9a3dd1e4de658baec35ba78b4ffc59da3a240cec2cf94e8"
+    },
+    "subtype": "reicon icon: building",
+    "illustration_role": "metaphor",
+    "use_when": "Ngân hàng, doanh nghiệp, tổ chức làm chủ thể trong câu chuyện.",
+    "avoid_when": "Không dùng đại diện cho cá nhân/khách hàng lẻ.",
+    "emotional_tone": [
+      "neutral",
+      "serious"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_calendar_525d3b60ce",
+    "category": "character",
+    "name_display": "Calendar",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/calendar.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 2918,
+      "sha256": "2d2ef526b05c9a1c8267363c3b06a3402cdb09844de17ee620a1783eb8c6de76"
+    },
+    "subtype": "reicon icon: calendar",
+    "illustration_role": "diagram_element",
+    "use_when": "Kỳ đối soát, deadline, mốc thời gian định kỳ.",
+    "avoid_when": "Không dùng cho sự kiện tức thời (dùng clock-circle thay thế).",
+    "emotional_tone": [
+      "neutral"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_check_circle_54b768cabb",
+    "category": "character",
+    "name_display": "Check Circle",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/check-circle.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 802,
+      "sha256": "e17e3b5f4a71bee1261581bb5a91c4fedf4c7bb8eeea6b9b9428dc4363a87ccb"
+    },
+    "subtype": "reicon icon: check-circle",
+    "illustration_role": "metaphor",
+    "use_when": "Đã đối soát khớp, hoàn tất, xác nhận thành công.",
+    "avoid_when": "Không dùng khi kết quả còn sai lệch/chưa xử lý xong.",
+    "emotional_tone": [
+      "calm",
+      "bright"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_clock_circle_834541e912",
+    "category": "character",
+    "name_display": "Clock Circle",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/clock-circle.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 707,
+      "sha256": "a98ff0a7de3bad24baa37800bef22f5fb1f08ac3c8effa8a19c102dab70a0576"
+    },
+    "subtype": "reicon icon: clock-circle",
+    "illustration_role": "diagram_element",
+    "use_when": "Tính khẩn cấp, xử lý theo thời gian thực, tốc độ.",
+    "avoid_when": "Không dùng cho lịch trình định kỳ dài hạn (dùng calendar thay thế).",
+    "emotional_tone": [
+      "urgent"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_credit_card_4688988dc2",
+    "category": "character",
+    "name_display": "Credit Card",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/credit-card.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 2500,
+      "sha256": "b17eb76d6d267ceb35fb94dd7cdc85609713bd8d16e82b2b44b38f83afa66d58"
+    },
+    "subtype": "reicon icon: credit-card",
+    "illustration_role": "diagram_element",
+    "use_when": "Giao dịch quẹt thẻ, chi tiêu bằng hạn mức tín dụng.",
+    "avoid_when": "Không dùng cho giao dịch tiền mặt/chuyển khoản trực tiếp.",
+    "emotional_tone": [
+      "neutral"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_diagram_up_80c94ba823",
+    "category": "character",
+    "name_display": "Diagram Up",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/diagram-up.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 1920,
+      "sha256": "a24d995a964b62bbd3c89227b66dbd1d4ef279e50deb1f05d46e385d47c4f665"
+    },
+    "subtype": "reicon icon: diagram-up",
+    "illustration_role": "diagram_element",
+    "use_when": "Tăng trưởng, xu hướng tích cực, số liệu đi lên.",
+    "avoid_when": "Không dùng khi số liệu đi xuống hoặc trung tính.",
+    "emotional_tone": [
+      "bright",
+      "playful"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_handshake_2b2b8d7a50",
+    "category": "character",
+    "name_display": "Handshake",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/handshake.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 2458,
+      "sha256": "ef0bcd1fcede49627cef8edaeec1c03c7dde198273d7f5e44f5dd08f955bb646"
+    },
+    "subtype": "reicon icon: handshake",
+    "illustration_role": "metaphor",
+    "use_when": "Hợp tác, thỏa thuận, tích hợp giữa 2 bên/hệ thống.",
+    "avoid_when": "Không dùng cho xung đột/tranh chấp — dùng alert-triangle hoặc scale2.",
+    "emotional_tone": [
+      "calm",
+      "bright"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_invoice_0abc406409",
+    "category": "character",
+    "name_display": "Invoice",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/invoice.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 4615,
+      "sha256": "dbf902c44b0a8b5f96ee1818963043e2fa9718edfa453c252abd5cf5f627d650"
+    },
+    "subtype": "reicon icon: invoice",
+    "illustration_role": "diagram_element",
+    "use_when": "Chứng từ, hóa đơn, giao dịch cần đối soát.",
+    "avoid_when": "Không dùng cho khái niệm trừu tượng không liên quan giấy tờ.",
+    "emotional_tone": [
+      "neutral"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_lightbulb_8bff826c90",
+    "category": "character",
+    "name_display": "Lightbulb",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/lightbulb.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 1368,
+      "sha256": "61169d8f5e747f22e75494925c9a15e97495407052a618b59afc710bb59caeeb"
+    },
+    "subtype": "reicon icon: lightbulb",
+    "illustration_role": "metaphor",
+    "use_when": "Giải pháp, insight, ý tưởng chốt lại vấn đề.",
+    "avoid_when": "Không dùng ở phần mở bài/đặt vấn đề — chỉ dùng lúc đưa giải pháp.",
+    "emotional_tone": [
+      "bright",
+      "playful"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_lock_1555661b50",
+    "category": "character",
+    "name_display": "Lock",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/lock.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 1927,
+      "sha256": "3e533b0cba2a6bc1c751b9991656548bb75b7a379f654ff437932d6e4516ab70"
+    },
+    "subtype": "reicon icon: lock",
+    "illustration_role": "metaphor",
+    "use_when": "Bảo mật, tuân thủ, quyền riêng tư dữ liệu tài chính.",
+    "avoid_when": "Không dùng cho nội dung không liên quan bảo mật/compliance.",
+    "emotional_tone": [
+      "serious",
+      "calm"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_mobile_edee90bc36",
+    "category": "character",
+    "name_display": "Mobile",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/mobile.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 2551,
+      "sha256": "8ca7c6f6868d7c27f0a3f86daf3a37cc3c804532be83af170c70af3786d501f6"
+    },
+    "subtype": "reicon icon: mobile",
+    "illustration_role": "diagram_element",
+    "use_when": "Mua trả góp/thanh toán qua ứng dụng di động.",
+    "avoid_when": "Không dùng đại diện chung cho 'công nghệ' — chỉ dùng cho ngữ cảnh giao dịch trên điện thoại.",
+    "emotional_tone": [
+      "neutral"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_money_bag_c9b2c383f3",
+    "category": "character",
+    "name_display": "Money Bag",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/money-bag.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 3351,
+      "sha256": "ff6534dee1ed38c3285d7dbf9bceae379ec68fc8091a4e68bd3e4ec3daf6965d"
+    },
+    "subtype": "reicon icon: money-bag",
+    "illustration_role": "metaphor",
+    "use_when": "Doanh thu, tiền, giá trị giao dịch cần nhấn mạnh.",
+    "avoid_when": "Cảnh nói về chi phí/tổn thất — dùng icon cảnh báo thay vì túi tiền.",
+    "emotional_tone": [
+      "neutral",
+      "bright"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_puzzle_piece_13bda97fe7",
+    "category": "character",
+    "name_display": "Puzzle Piece",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/puzzle-piece.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 1078,
+      "sha256": "0cc2adcd4cbb187e6cdb34f484e0e4699d38959a9b16ef1c6b725da7d4b41b3f"
+    },
+    "subtype": "reicon icon: puzzle-piece",
+    "illustration_role": "metaphor",
+    "use_when": "Giải pháp khớp đúng nhu cầu, tích hợp nhiều phần thành một hệ thống.",
+    "avoid_when": "Không dùng cho một hành động đơn lẻ, chỉ dùng cho khái niệm 'khớp nối'.",
+    "emotional_tone": [
+      "playful",
+      "neutral"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_scale2_e3622e6fb0",
+    "category": "character",
+    "name_display": "Scale2",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/scale2.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 2730,
+      "sha256": "ab912a7994371b752c77c4781bac8931ee0fe760bb09aee59b76969ad40cfce8"
+    },
+    "subtype": "reicon icon: scale2",
+    "illustration_role": "metaphor",
+    "use_when": "So sánh, cân đối 2 phía (thu-chi, kỳ vọng-thực tế).",
+    "avoid_when": "Không dùng khi chỉ có 1 chiều dữ liệu, không phải so sánh.",
+    "emotional_tone": [
+      "neutral",
+      "serious"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_search_minus3_e9965fdecb",
+    "category": "character",
+    "name_display": "Search Minus3",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/search-minus3.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 2074,
+      "sha256": "a18eee78d521567e471dc1f283bee65daf8fa3bcb9e4943765d8a9e469974462"
+    },
+    "subtype": "reicon icon: search-minus3",
+    "illustration_role": "metaphor",
+    "use_when": "Tra soát, kiểm tra, truy vết giao dịch/nguyên nhân.",
+    "avoid_when": "Không dùng cho bước hành động (đã tìm xong) — chỉ dùng cho giai đoạn tìm kiếm.",
+    "emotional_tone": [
+      "neutral"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  },
+  {
+    "id": "char_users_79d00a94f6",
+    "category": "character",
+    "name_display": "Users",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "reicon",
+      "url_or_path": "characters/reicon/users.svg",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "reicon"
+    },
+    "tech": {
+      "format": "svg",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "file": {
+      "size_bytes": 2116,
+      "sha256": "20337ff8dd8fde2771bf7abda1fc508e62801f6db3718410db7179c695606e24"
+    },
+    "subtype": "reicon icon: users",
+    "illustration_role": "character",
+    "use_when": "Các bên liên quan, đội ngũ, khách hàng/nhân viên kế toán làm nhân vật trong câu chuyện.",
+    "avoid_when": "Không dùng để minh họa 1 cá nhân cụ thể có vai trò khác biệt — dùng cho nhóm chung.",
+    "emotional_tone": [
+      "neutral",
+      "calm"
+    ],
+    "reusable_across_topics": true,
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "curated"
+    }
+  }
+]

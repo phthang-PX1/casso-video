@@ -1,0 +1,136 @@
+{
+  "title": "Tín dụng là gì?",
+  "compositionId": "TinDungLaGi",
+  "fps": 30,
+  "version": "v5",
+  "backgroundSound": {
+    "file": "app/public/sfx/ambient-pad.wav",
+    "volumeRelativeDb": -18,
+    "loop": true,
+    "description": "Ambient drone/room-tone liên tục, giữ mix không bao giờ im lặng tuyệt đối.",
+    "isRealMusic": false,
+    "note": "KHÔNG phải nhạc nền thật — chưa có nguồn nhạc royalty-free trong kho. Thay bằng mô tả mong muốn hoặc file nhạc thật để đổi."
+  },
+  "scenes": [
+    {
+      "id": "card_0",
+      "title": "Tiêu đề",
+      "component": "Card0Title",
+      "durationFrames": 75,
+      "narration": "Tín dụng là gì?",
+      "audioFile": "app/public/audio/card_0.mp3",
+      "visualDescription": "Full-bleed gradient brand xanh + video nền chuyển động mờ. Chữ 'TÍN DỤNG LÀ GÌ?' trắng, to, giữa khung.",
+      "effects": ["GSAP scale+fade entrance (back.out)", "idle pulse sau khi ổn định"],
+      "illustration": null,
+      "sfx": [{ "kind": "whoosh", "timing": "ngay khi chữ xuất hiện", "file": "app/public/sfx/whoosh.wav" }]
+    },
+    {
+      "id": "card_1",
+      "title": "Mở đầu (Hook)",
+      "component": "Card1Hook",
+      "durationFrames": 350,
+      "narration": "Bạn vay tiền mua nhà, quẹt thẻ mua đồ, hay mua trả góp một chiếc điện thoại. Tất cả đều có một điểm chung: bạn đang dùng tiền của người khác, để trả sau. Nhưng chính xác thì, tín dụng là gì?",
+      "audioFile": "app/public/audio/card_1.mp3",
+      "visualDescription": "Khung card trắng. 3 icon (nhà/thẻ/điện thoại) xuất hiện lần lượt đúng nhịp giọng đọc, mỗi icon 3 lớp GSAP (khung màu → glyph xoay vào → nhãn chữ), giữ nhịp bập bênh nhẹ. Kết bằng dấu '?' lớn phóng to.",
+      "effects": ["GSAP layered entrance per icon (box → glyph → label)", "idle bob+rotate sau khi ổn định", "spring scale cho dấu '?'"],
+      "illustration": null,
+      "sfx": [
+        { "kind": "whoosh", "timing": "đầu cảnh", "file": "app/public/sfx/whoosh.wav" },
+        { "kind": "pop", "timing": "mỗi icon xuất hiện (x3)", "file": "app/public/sfx/pop.mp3" },
+        { "kind": "pop", "timing": "khi dấu '?' hiện ra (to hơn)", "file": "app/public/sfx/pop.mp3" }
+      ]
+    },
+    {
+      "id": "card_2",
+      "title": "Định nghĩa",
+      "component": "Card2Definition",
+      "durationFrames": 470,
+      "narration": "Tín dụng, nói đơn giản, là việc một bên, ngân hàng, tổ chức tài chính, hay người bán, cho bạn quyền sử dụng một khoản tiền hoặc giá trị hàng hóa ngay bây giờ, đổi lại bạn cam kết hoàn trả vào một thời điểm trong tương lai, thường kèm theo một khoản phí gọi là lãi suất.",
+      "audioFile": "app/public/audio/card_2.mp3",
+      "visualDescription": "Khung card trắng. Đầu cảnh: illustration unDraw thật (người + thẻ tín dụng) hiện theo 3 lớp. Sau đó chữ 'Đổi lại, bạn cam kết:' rồi sơ đồ 3 bước (Dùng ngay → Trả sau → Kèm lãi) qua @antv/infographic.",
+      "effects": ["UndrawReveal 3-layer GSAP (bg→body→accent)", "GSAP fade+y cho heading", "idle pulse cho heading + sơ đồ sau khi ổn định"],
+      "illustration": { "source": "svg/credit_card_payment.svg", "component": "CreditCardPaymentIllustration" },
+      "sfx": [
+        { "kind": "whoosh", "timing": "đầu cảnh", "file": "app/public/sfx/whoosh.wav" },
+        { "kind": "pop", "timing": "khi chữ 'cam kết' hiện", "file": "app/public/sfx/pop.mp3" },
+        { "kind": "pop", "timing": "khi sơ đồ 3 bước hiện", "file": "app/public/sfx/pop.mp3" }
+      ]
+    },
+    {
+      "id": "card_3",
+      "title": "Ẩn dụ: Lò xo",
+      "component": "Card3Metaphor",
+      "durationFrames": 340,
+      "narration": "Hãy tưởng tượng tín dụng như một chiếc lò xo. Nó kéo dài sức mua của bạn ra trước thời gian thực tế bạn kiếm được tiền. Nhưng lò xo càng kéo dài, càng cần nhiều lực để kéo nó về đúng vị trí.",
+      "audioFile": "app/public/audio/card_3.mp3",
+      "visualDescription": "Lò xo SVG vẽ tay (stroke-draw lúc vào), kéo dài dần đúng nhịp giọng đọc, đung đưa nhẹ khi đã kéo hết cỡ. Bên dưới câu chữ với 2 từ khóa dạng pill.",
+      "effects": ["stroke-dashoffset draw-in", "interpolate độ dài lò xo theo frame", "idle sway sau khi kéo xong"],
+      "illustration": null,
+      "sfx": [
+        { "kind": "whoosh", "timing": "đầu cảnh", "file": "app/public/sfx/whoosh.wav" },
+        { "kind": "pop", "timing": "khi lò xo bắt đầu kéo giãn", "file": "app/public/sfx/pop.mp3" }
+      ]
+    },
+    {
+      "id": "card_3b",
+      "title": "Ẩn dụ: Bóng bay xì hơi (nợ xấu)",
+      "component": "Card3bBalloon",
+      "durationFrames": 270,
+      "narration": "Còn nợ xấu? Nó giống như một quả bóng bay bị xì hơi. Giá trị mất dần theo từng ngày trễ hạn, và càng để lâu, càng khó bơm căng trở lại.",
+      "audioFile": "app/public/audio/card_3b.mp3",
+      "visualDescription": "Bóng bay đỏ nhiều lớp (quầng sáng mờ → dây vẽ nét → thân bóng → 2 nếp nhăn vẽ tay khi xì) xẹp dần đúng nhịp giọng đọc, đổi màu đỏ→xám khi xẹp quá nửa, đung đưa như con lắc sau khi xẹp xong.",
+      "effects": ["stroke-dashoffset draw cho dây + nếp nhăn", "interpolate deflate theo frame", "idle pendulum sway sau khi xẹp xong"],
+      "illustration": null,
+      "sfx": [
+        { "kind": "whoosh", "timing": "đầu cảnh", "file": "app/public/sfx/whoosh.wav" },
+        { "kind": "pop", "timing": "khi bóng bắt đầu xì", "file": "app/public/sfx/pop.mp3" }
+      ]
+    },
+    {
+      "id": "card_4",
+      "title": "So sánh: Tín dụng ≠ Nợ xấu",
+      "component": "Card4Comparison",
+      "durationFrames": 365,
+      "narration": "Nhiều người nghĩ tín dụng và nợ xấu là một. Không đúng. Tín dụng là công cụ trung tính, dùng đúng cách, nó giúp bạn xoay vòng vốn kịp lúc. Chỉ khi mất khả năng trả đúng hạn, tín dụng mới biến thành nợ xấu.",
+      "audioFile": "app/public/audio/card_4.mp3",
+      "visualDescription": "Layout full-bleed (không khung card trắng) — nội dung nổi trên gradient+video nền. Tiêu đề trắng. 2 khối tròn trắng đối xứng hiện hard-cut: trái = tick xanh 'Tín dụng (đúng hạn)', phải = tam giác đỏ 'Nợ xấu (trễ hạn)'.",
+      "effects": ["hard-cut reveal (opacity 0/1, không easing)", "idle bob sau khi hiện"],
+      "illustration": null,
+      "sfx": [
+        { "kind": "whoosh", "timing": "đầu cảnh", "file": "app/public/sfx/whoosh.wav" },
+        { "kind": "pop", "timing": "mỗi bên hiện ra (x2)", "file": "app/public/sfx/pop.mp3" }
+      ]
+    },
+    {
+      "id": "card_5",
+      "title": "Xu hướng / số liệu",
+      "component": "Card5Stats",
+      "durationFrames": 315,
+      "narration": "Tín dụng không phải khái niệm mới. Hệ thống ngân hàng hiện đại đã xây dựng trên nó hàng trăm năm, và ngày nay phần lớn giao dịch tiêu dùng trên thế giới đều có yếu tố tín dụng đứng sau.",
+      "audioFile": "app/public/audio/card_5.mp3",
+      "visualDescription": "Khung card trắng. Câu dẫn hiện trước, sau đó biểu đồ 4 cột tự mọc dần từng cột (stagger), số % đếm lên đồng bộ theo từng cột.",
+      "effects": ["GSAP stagger scaleY cho từng cột (back.out)", "count-up số theo interpolate", "idle pulse sau khi mọc xong"],
+      "illustration": null,
+      "dataDisclaimer": "Số liệu 22/48/74/97% CHỈ LÀ MINH HỌA xu hướng tăng dần, KHÔNG có nguồn thật — cần thay nếu có số liệu thật.",
+      "sfx": [
+        { "kind": "whoosh", "timing": "đầu cảnh", "file": "app/public/sfx/whoosh.wav" },
+        { "kind": "pop", "timing": "khi biểu đồ bắt đầu mọc", "file": "app/public/sfx/pop.mp3" }
+      ]
+    },
+    {
+      "id": "card_6",
+      "title": "Kết luận",
+      "component": "Card6Conclusion",
+      "durationFrames": 300,
+      "narration": "Tóm lại: tín dụng là quyền dùng trước, trả sau, kèm lãi suất, một công cụ tài chính trung tính, tốt hay xấu phụ thuộc vào cách bạn dùng nó.",
+      "audioFile": "app/public/audio/card_6.mp3",
+      "visualDescription": "Layout full-bleed như Card 4. Illustration unDraw thật (người + biểu đồ tăng trưởng) trên nền trắng nhỏ đầu cảnh. Bên dưới 2 khối so sánh dùng đúng/trễ hạn. Cuối cảnh: 3 từ khóa dạng pill tóm tắt.",
+      "effects": ["UndrawReveal 3-layer GSAP", "hard-cut reveal cho 2 khối so sánh", "idle pulse cho dòng tóm tắt"],
+      "illustration": { "source": "svg/personal_finance.svg", "component": "PersonalFinanceIllustration" },
+      "sfx": [
+        { "kind": "whoosh", "timing": "đầu cảnh", "file": "app/public/sfx/whoosh.wav" },
+        { "kind": "whoosh", "timing": "trước dòng tóm tắt cuối", "file": "app/public/sfx/whoosh.wav" }
+      ]
+    }
+  ]
+}

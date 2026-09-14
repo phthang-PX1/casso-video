@@ -1,0 +1,366 @@
+{
+  "schema_document": "docs/asset_metadata_schema.md",
+  "path_base": "repository_root",
+  "catalogs": [
+    {
+      "path": "metadata/background.json",
+      "category": "background",
+      "count": 17
+    },
+    {
+      "path": "metadata/sfx.json",
+      "category": "sound",
+      "count": 937
+    },
+    {
+      "path": "metadata/character.json",
+      "category": "character",
+      "count": 17
+    },
+    {
+      "path": "metadata/effect.json",
+      "category": "effect",
+      "count": 8
+    }
+  ],
+  "total_assets": 979,
+  "subtype_counts": {
+    "1 item bật to rồi về đúng kích thước khi thêm vào bảng/checklist": 1,
+    "ambience": 32,
+    "animated_grunge_texture": 1,
+    "animated_topographic_dark": 2,
+    "animated_topographic_light": 2,
+    "bell": 9,
+    "black_perspective_frame": 1,
+    "camera": 17,
+    "card/box scale+rotate spring vào khung hình": 1,
+    "cash_register": 5,
+    "chuyển chương bằng slide/wipe toàn khung hình": 1,
+    "click": 42,
+    "danh sách item fade+dịch lên lần lượt": 1,
+    "dark_halftone_wave": 1,
+    "dark_particle_texture": 1,
+    "dark_perspective_grid": 1,
+    "dark_square_grid": 1,
+    "film_dust_scratches": 1,
+    "foley": 20,
+    "game_cue": 8,
+    "giữ khung hình tĩnh, không animation": 1,
+    "glitch": 45,
+    "green_glow_grid": 1,
+    "gạch chân tự vẽ (width 0% → 100%)": 1,
+    "horn": 7,
+    "horror": 16,
+    "icon chuyển động lặp (vd. loading, tia sáng, nhịp đập)": 1,
+    "impact": 43,
+    "khoanh tròn tự vẽ quanh 1 vùng/số liệu": 1,
+    "light_halftone_wave": 1,
+    "magic": 4,
+    "meme": 86,
+    "music_excerpt": 10,
+    "organic_contour_dark": 1,
+    "pop_snap": 13,
+    "red_geometric_frame": 1,
+    "reicon icon: alert-triangle": 1,
+    "reicon icon: building": 1,
+    "reicon icon: calendar": 1,
+    "reicon icon: check-circle": 1,
+    "reicon icon: clock-circle": 1,
+    "reicon icon: credit-card": 1,
+    "reicon icon: diagram-up": 1,
+    "reicon icon: handshake": 1,
+    "reicon icon: invoice": 1,
+    "reicon icon: lightbulb": 1,
+    "reicon icon: lock": 1,
+    "reicon icon: mobile": 1,
+    "reicon icon: money-bag": 1,
+    "reicon icon: puzzle-piece": 1,
+    "reicon icon: scale2": 1,
+    "reicon icon: search-minus3": 1,
+    "reicon icon: users": 1,
+    "riser": 46,
+    "slow_motion": 15,
+    "sub_drop": 24,
+    "ui": 33,
+    "unclassified": 85,
+    "vocal_reaction": 7,
+    "weapon": 45,
+    "white_crumpled_paper": 1,
+    "white_perspective_frame": 1,
+    "whoosh": 325
+  },
+  "probe_errors": [],
+  "unknown_license_count": 954,
+  "reference_only_count": 113,
+  "needs_listening_count": 937,
+  "needs_curation_count": 0,
+  "exact_duplicate_groups": [
+    {
+      "canonical_id": "sfx_bad_to_the_bone_meme_1_72bfbf27bc",
+      "asset_ids": [
+        "sfx_bad_to_the_bone_meme_1_72bfbf27bc",
+        "sfx_bad_to_the_bone_meme_38eb7ae56f"
+      ]
+    },
+    {
+      "canonical_id": "sfx_candyland_cat_meme_1_23d50bea8b",
+      "asset_ids": [
+        "sfx_candyland_cat_meme_1_23d50bea8b",
+        "sfx_candyland_cat_meme_b0dbaaed1b"
+      ]
+    },
+    {
+      "canonical_id": "sfx_tmpq7mpzzl9_1_132106b8d0",
+      "asset_ids": [
+        "sfx_tmpq7mpzzl9_1_132106b8d0",
+        "sfx_tmpq7mpzzl9_d39cfe3389"
+      ]
+    },
+    {
+      "canonical_id": "sfx_360_riser_impact_370401_2ba822ef0e",
+      "asset_ids": [
+        "sfx_360_riser_impact_370401_2ba822ef0e",
+        "sfx_360_riser_impact_370401_62a455dbf4"
+      ]
+    },
+    {
+      "canonical_id": "sfx_8mm_film_camera_6446_2c38396048",
+      "asset_ids": [
+        "sfx_8mm_film_camera_6446_2c38396048",
+        "sfx_8mm_film_camera_6446_e2b8cd3853"
+      ]
+    },
+    {
+      "canonical_id": "sfx_bips_6c239e6db3",
+      "asset_ids": [
+        "sfx_bips_6c239e6db3",
+        "sfx_bips_6ad763b4be"
+      ]
+    },
+    {
+      "canonical_id": "sfx_fast_whip_d406c58937",
+      "asset_ids": [
+        "sfx_fast_whip_d406c58937",
+        "sfx_fast_whip_d5e6f4d300"
+      ]
+    },
+    {
+      "canonical_id": "sfx_fast_whoosh_0bd9edffed",
+      "asset_ids": [
+        "sfx_fast_whoosh_0bd9edffed",
+        "sfx_fast_whoosh_7d25f08b7f"
+      ]
+    },
+    {
+      "canonical_id": "sfx_long_swoosh_8407d63551",
+      "asset_ids": [
+        "sfx_long_swoosh_8407d63551",
+        "sfx_long_swoosh_6ca58558d7"
+      ]
+    },
+    {
+      "canonical_id": "sfx_swoosh_2_f8dc385bbf",
+      "asset_ids": [
+        "sfx_swoosh_2_f8dc385bbf",
+        "sfx_swoosh_2_7cc05482da"
+      ]
+    },
+    {
+      "canonical_id": "sfx_swoosh_very_long_bbb134e4d6",
+      "asset_ids": [
+        "sfx_swoosh_very_long_bbb134e4d6",
+        "sfx_swoosh_very_long_cf5e155134"
+      ]
+    },
+    {
+      "canonical_id": "sfx_whoosh_1_2_61996e6f0b",
+      "asset_ids": [
+        "sfx_whoosh_1_2_61996e6f0b",
+        "sfx_whoosh_1_84662a55cc"
+      ]
+    },
+    {
+      "canonical_id": "sfx_whoosh_deep_light_2_f23ef1c6ec",
+      "asset_ids": [
+        "sfx_whoosh_deep_light_2_f23ef1c6ec",
+        "sfx_whoosh_deep_light_bfce570fca"
+      ]
+    },
+    {
+      "canonical_id": "sfx_bicycle_chain_gear_shift_sound_effect_333042_6a07d530a3",
+      "asset_ids": [
+        "sfx_bicycle_chain_gear_shift_sound_effect_333042_6a07d530a3",
+        "sfx_bicycle_chain_gear_shift_sound_effect_333042_ad559a4330"
+      ]
+    },
+    {
+      "canonical_id": "sfx_bicycle_gear_45545_b9fde2cb38",
+      "asset_ids": [
+        "sfx_bicycle_gear_45545_b9fde2cb38",
+        "sfx_bicycle_gear_45545_b0f85b3afe"
+      ]
+    },
+    {
+      "canonical_id": "sfx_bike_chain_75419_1f020bcbdd",
+      "asset_ids": [
+        "sfx_bike_chain_75419_1f020bcbdd",
+        "sfx_bike_chain_75419_e06b4befb6"
+      ]
+    },
+    {
+      "canonical_id": "sfx_chainsrattling_78193_5a9f64b53f",
+      "asset_ids": [
+        "sfx_chainsrattling_78193_5a9f64b53f",
+        "sfx_chainsrattling_78193_f9fcecf811"
+      ]
+    },
+    {
+      "canonical_id": "sfx_clap_10_36723_4312a27a2b",
+      "asset_ids": [
+        "sfx_clap_10_36723_4312a27a2b",
+        "sfx_clap_10_36723_834768995b"
+      ]
+    },
+    {
+      "canonical_id": "sfx_clicking_433009_d8c7745209",
+      "asset_ids": [
+        "sfx_clicking_433009_d8c7745209",
+        "sfx_clicking_433009_fe027812e7"
+      ]
+    },
+    {
+      "canonical_id": "sfx_finger_snap_reverb_423222_6bf56ac887",
+      "asset_ids": [
+        "sfx_finger_snap_reverb_423222_6bf56ac887",
+        "sfx_finger_snap_reverb_423222_8903fc5f22"
+      ]
+    },
+    {
+      "canonical_id": "sfx_lamp_click_on_off_104823_e6cfaf259d",
+      "asset_ids": [
+        "sfx_lamp_click_on_off_104823_e6cfaf259d",
+        "sfx_lamp_click_on_off_104823_fd95e0cb5b"
+      ]
+    },
+    {
+      "canonical_id": "sfx_mouse_clicks_and_scrolling_54931_15df748f13",
+      "asset_ids": [
+        "sfx_mouse_clicks_and_scrolling_54931_15df748f13",
+        "sfx_mouse_clicks_and_scrolling_54931_ae546dd056"
+      ]
+    },
+    {
+      "canonical_id": "sfx_multi_pop_6_188170_f22f262b1c",
+      "asset_ids": [
+        "sfx_multi_pop_6_188170_f22f262b1c",
+        "sfx_multi_pop_6_188170_8b604170f6"
+      ]
+    },
+    {
+      "canonical_id": "sfx_panoramic_f05c9b8d71",
+      "asset_ids": [
+        "sfx_panoramic_f05c9b8d71",
+        "sfx_panoramic_ecffab27b3"
+      ]
+    },
+    {
+      "canonical_id": "sfx_sharp_riser_327342_3d7ab6edea",
+      "asset_ids": [
+        "sfx_sharp_riser_327342_3d7ab6edea",
+        "sfx_sharp_riser_327342_c29306552d"
+      ]
+    },
+    {
+      "canonical_id": "sfx_shutter_39318_f598b980c5",
+      "asset_ids": [
+        "sfx_shutter_39318_f598b980c5",
+        "sfx_shutter_39318_0b9a23d4ce",
+        "sfx_shutter_39318_cc82b8ff6b"
+      ]
+    },
+    {
+      "canonical_id": "sfx_snaping_42970_3bb1f3cbbb",
+      "asset_ids": [
+        "sfx_snaping_42970_3bb1f3cbbb",
+        "sfx_snaping_42970_3c645b5d27"
+      ]
+    },
+    {
+      "canonical_id": "sfx_swoosh_026_454861_8060c8c0bd",
+      "asset_ids": [
+        "sfx_swoosh_026_454861_8060c8c0bd",
+        "sfx_swoosh_026_454861_354fb196f0"
+      ]
+    },
+    {
+      "canonical_id": "sfx_swoosh_riser_reverb_390309_03438757a7",
+      "asset_ids": [
+        "sfx_swoosh_riser_reverb_390309_03438757a7",
+        "sfx_swoosh_riser_reverb_390309_df36d72c6d"
+      ]
+    },
+    {
+      "canonical_id": "sfx_ui_pop_up_14_197900_74d055464e",
+      "asset_ids": [
+        "sfx_ui_pop_up_14_197900_74d055464e",
+        "sfx_ui_pop_up_14_197900_37594fa26f"
+      ]
+    },
+    {
+      "canonical_id": "sfx_ui_pop_up_15_197897_662978c6c0",
+      "asset_ids": [
+        "sfx_ui_pop_up_15_197897_662978c6c0",
+        "sfx_ui_pop_up_15_197897_84e47b3760"
+      ]
+    },
+    {
+      "canonical_id": "sfx_wrench_01_70483_47b8b72bf8",
+      "asset_ids": [
+        "sfx_wrench_01_70483_47b8b72bf8",
+        "sfx_wrench_01_70483_537769576e"
+      ]
+    },
+    {
+      "canonical_id": "sfx_wrench_02_101112_da2ca3d2bb",
+      "asset_ids": [
+        "sfx_wrench_02_101112_da2ca3d2bb",
+        "sfx_wrench_02_101112_0fc9e15b37"
+      ]
+    },
+    {
+      "canonical_id": "sfx_fast_swish_82e3aed2b3",
+      "asset_ids": [
+        "sfx_fast_swish_82e3aed2b3",
+        "sfx_high_fast_swoosh_91847abef0"
+      ]
+    },
+    {
+      "canonical_id": "sfx_basketball_net_swoosh_blastwavefx_29589_09325099cf",
+      "asset_ids": [
+        "sfx_basketball_net_swoosh_blastwavefx_29589_09325099cf",
+        "sfx_whoosh_swish_sounds_6_bddfa4b5cc"
+      ]
+    },
+    {
+      "canonical_id": "sfx_efx_int_punch_whip_04_2_9ef570d313",
+      "asset_ids": [
+        "sfx_efx_int_punch_whip_04_2_9ef570d313",
+        "sfx_whoosh_swish_sounds_2_7a4e9facfd"
+      ]
+    },
+    {
+      "canonical_id": "sfx_object_whoosh_fly_by_01_sfxbible_ss06024_69f9ed26b7",
+      "asset_ids": [
+        "sfx_object_whoosh_fly_by_01_sfxbible_ss06024_69f9ed26b7",
+        "sfx_whoosh_swish_sounds_5_3914725eb5"
+      ]
+    },
+    {
+      "canonical_id": "sfx_sound_design_shimmer_accent_whoosh_fly_by_blastwavefx_18611_0e615ed175",
+      "asset_ids": [
+        "sfx_sound_design_shimmer_accent_whoosh_fly_by_blastwavefx_18611_0e615ed175",
+        "sfx_whoosh_swish_sounds_7_1a9fd03fb4"
+      ]
+    }
+  ]
+}

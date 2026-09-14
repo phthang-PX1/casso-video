@@ -1,0 +1,172 @@
+{
+  "background/Motion Backgrounds by GstaikDesigns (1).mkv": {
+    "name_display": "Đường đồng mức xám trên nền đen — 1080p",
+    "subtype": "animated_topographic_dark",
+    "description": "Các đường đồng mức mảnh màu xám uốn lượn trên nền đen, phủ toàn khung ngang.",
+    "use_when": "Nền hook hoặc mở chương về hệ thống, phân tầng, khám phá; đặt tiêu đề sáng trên thẻ đặc.",
+    "avoid_when": "Không đặt bảng hoặc nhiều chữ nhỏ trực tiếp lên đường đồng mức dày.",
+    "emotional_tone": ["serious", "suspense"],
+    "layout_role": "full_bg",
+    "visual_weight": "high"
+  },
+  "background/Motion Backgrounds by GstaikDesigns (1).mov": {
+    "name_display": "Hạt và vệt sáng nhỏ trên nền đen — ProRes 4K",
+    "subtype": "dark_particle_texture",
+    "description": "Nền đen với các chấm và vệt sáng nhỏ thưa, tạo bề mặt nhiễu tối.",
+    "use_when": "Làm nền tối ít nổi cho card giải thích hoặc phủ texture nhẹ lên tư liệu bằng blend screen.",
+    "avoid_when": "Không coi là video có alpha; tránh tăng sáng texture tới mức lấn chữ.",
+    "emotional_tone": ["serious", "neutral"],
+    "layout_role": "overlay_texture",
+    "visual_weight": "low"
+  },
+  "background/Motion Backgrounds by GstaikDesigns (1).mp4": {
+    "name_display": "Texture xước xám đen chuyển động — 4K",
+    "subtype": "animated_grunge_texture",
+    "description": "Các vệt xước sáng dày trên bề mặt xám đen, đổi hướng giữa các khung mẫu.",
+    "use_when": "Tạo chất liệu thô cho hook, tình huống xung đột hoặc lớp phủ lên tư liệu với opacity thấp.",
+    "avoid_when": "Tránh phủ đậm lên bảng dữ liệu và chữ nhỏ; không mặc định nối loop liền mạch.",
+    "emotional_tone": ["tense", "serious"],
+    "layout_role": "overlay_texture",
+    "visual_weight": "high"
+  },
+  "background/Motion Backgrounds by GstaikDesigns (1).webm": {
+    "name_display": "Đường đồng mức đen trên nền trắng — 1440p",
+    "subtype": "animated_topographic_light",
+    "description": "Đường đồng mức đen uốn lượn dày trên nền trắng, bố cục ngang.",
+    "use_when": "Mở chương, giới thiệu quan hệ hoặc cấu trúc; dùng thẻ trắng đặc để tách nội dung khỏi họa tiết.",
+    "avoid_when": "Không viết chữ đen nhỏ trực tiếp lên các nét đồng mức.",
+    "emotional_tone": ["neutral", "curious"],
+    "layout_role": "full_bg",
+    "visual_weight": "high"
+  },
+  "background/Motion Backgrounds by GstaikDesigns (2).mov": {
+    "name_display": "Đường đồng mức lớn trên nền trắng — MOV 4K",
+    "subtype": "animated_topographic_light",
+    "description": "Các vòng đồng mức lớn, nét đen mảnh trên trắng, thay đổi vị trí giữa các khung mẫu.",
+    "use_when": "Nền cho tiêu đề ngắn, card khái niệm hoặc mở chương có bố cục trung tâm.",
+    "avoid_when": "Không đặt biểu đồ nhiều nét trực tiếp lên nền; clip ngắn cần kiểm tra điểm nối trước khi lặp.",
+    "emotional_tone": ["neutral", "curious"],
+    "layout_role": "full_bg",
+    "visual_weight": "high"
+  },
+  "background/Motion Backgrounds by GstaikDesigns (2).mp4": {
+    "name_display": "Lưới phối cảnh xám tối — khung dọc",
+    "subtype": "dark_perspective_grid",
+    "description": "Lưới xám rất tối tạo cảm giác khung/hộp phối cảnh trên nền đen dọc.",
+    "use_when": "Nền ít nổi cho so sánh, sơ đồ hoặc card giải thích công nghệ với chữ sáng.",
+    "avoid_when": "Tránh dùng chữ tối hoặc các đường biểu đồ quá mảnh; kiểm tra tương phản sau khi nén video.",
+    "emotional_tone": ["serious", "neutral"],
+    "layout_role": "full_bg",
+    "visual_weight": "low"
+  },
+  "background/Motion Backgrounds by GstaikDesigns (2).webm": {
+    "name_display": "Đường đồng mức trắng trên nền đen — 4K",
+    "subtype": "animated_topographic_dark",
+    "description": "Đường đồng mức sáng, tương phản rõ trên nền đen; vòng lớn hơn bản MKV (1).",
+    "use_when": "Nền hook hoặc chuyển chương về khám phá, cấu trúc và hệ thống với tiêu đề trên thẻ đặc.",
+    "avoid_when": "Tránh đặt chữ trắng hoặc sơ đồ nhiều nét trực tiếp lên họa tiết.",
+    "emotional_tone": ["serious", "suspense"],
+    "layout_role": "full_bg",
+    "visual_weight": "high"
+  },
+  "background/Motion Backgrounds by GstaikDesigns (3).mp4": {
+    "name_display": "Bụi và vết xước phim cũ — nền đen",
+    "subtype": "film_dust_scratches",
+    "description": "Chấm bụi, vệt dọc và sợi xước sáng rải trên nền đen, giống chất liệu phim cũ.",
+    "use_when": "Lớp phủ nhẹ cho cảnh lịch sử, hồi tưởng hoặc trích dẫn tư liệu; dùng blend screen để bỏ nền đen.",
+    "avoid_when": "Không coi là có alpha; tránh phủ lên chữ nhỏ hoặc giao diện cần sắc nét.",
+    "emotional_tone": ["nostalgic", "serious"],
+    "layout_role": "overlay_texture",
+    "visual_weight": "low"
+  },
+  "background/Motion Backgrounds by GstaikDesigns (4).mp4": {
+    "name_display": "Sóng chấm halftone tối — 4K",
+    "subtype": "dark_halftone_wave",
+    "description": "Các chấm xám nhỏ kết thành mảng sóng mềm trên nền đen, tương phản thấp.",
+    "use_when": "Nền cho phần giải thích, số liệu hoặc kết luận với chữ sáng và điểm nhấn màu.",
+    "avoid_when": "Không dùng chữ xám tối; kiểm tra moiré khi thu nhỏ họa tiết chấm.",
+    "emotional_tone": ["calm", "serious"],
+    "layout_role": "full_bg",
+    "visual_weight": "low"
+  },
+  "background/Motion Backgrounds by GstaikDesigns (5).mp4": {
+    "name_display": "Mảng đường viền hữu cơ xám trên đen — 4K",
+    "subtype": "organic_contour_dark",
+    "description": "Đường viền xám mảnh tạo thành nhiều mảng hữu cơ rời nhau trên nền đen.",
+    "use_when": "Hook hoặc mở chương về mạng lưới, phân bố hay chủ đề trừu tượng; đặt nội dung trên thẻ đặc.",
+    "avoid_when": "Không coi họa tiết là bản đồ địa lý thật; tránh cạnh tranh với sơ đồ nhiều đường.",
+    "emotional_tone": ["curious", "serious"],
+    "layout_role": "full_bg",
+    "visual_weight": "high"
+  },
+  "background/YTSave_Shorts_Grid-Pattern-Black-_-white-stripe-Edit-E_Media_adI0gqtpkY8_001_1080p.mp4": {
+    "name_display": "Lưới ô vuông xám trên đen — khung dọc",
+    "subtype": "dark_square_grid",
+    "description": "Lưới ô vuông mảnh xám phủ khung dọc màu đen.",
+    "use_when": "Nền có cấu trúc cho checklist, so sánh hoặc sơ đồ với các thẻ sáng phân biệt rõ.",
+    "avoid_when": "Không để lưới nền lẫn với đường trục biểu đồ; tránh chữ xám quá mảnh.",
+    "emotional_tone": ["neutral", "serious"],
+    "layout_role": "full_bg",
+    "visual_weight": "low"
+  },
+  "background/YTSave_Shorts_Paper-Background-Reels-Shorts-Edit-Eleme_Media_93mZmCavULI_001_1080p.mp4": {
+    "name_display": "Giấy trắng nhăn nhẹ — khung dọc",
+    "subtype": "white_crumpled_paper",
+    "description": "Bề mặt giấy trắng/xám nhăn nhẹ phủ toàn khung dọc.",
+    "use_when": "Giải thích khái niệm, ghi chú, danh sách hoặc trích dẫn với chữ đen và gạch chân vẽ tay.",
+    "avoid_when": "Tránh chữ trắng hoặc sắc xám quá nhạt; không xếp thêm nhiều texture lên mặt giấy.",
+    "emotional_tone": ["calm", "neutral"],
+    "layout_role": "full_bg",
+    "visual_weight": "low"
+  },
+  "background/videoplayback-2.mp4": {
+    "name_display": "Hình học đỏ và hồng, khoảng trống giữa — khung dọc",
+    "subtype": "red_geometric_frame",
+    "description": "Nền đỏ sẫm với mảng cong hồng, vòng tròn và nét chéo sáng quanh biên; giữa khá trống.",
+    "use_when": "Hook, câu hỏi lớn hoặc lời kêu gọi hành động với một tiêu đề ngắn ở trung tâm.",
+    "avoid_when": "Tránh bảng dày chữ hoặc dùng màu đỏ khi kịch bản dễ bị hiểu thành cảnh báo không chủ ý.",
+    "emotional_tone": ["energetic", "playful"],
+    "layout_role": "full_bg",
+    "visual_weight": "high"
+  },
+  "background/videoplayback-3.mp4": {
+    "name_display": "Lưới phối cảnh trắng ở hai đầu, giữa đen — khung dọc",
+    "subtype": "black_perspective_frame",
+    "description": "Lưới trắng phối cảnh ở phía trên và dưới, vùng giữa đen rộng để đặt nội dung.",
+    "use_when": "Đặt định nghĩa, con số hoặc sơ đồ ở vùng đen trung tâm; phù hợp giải thích công nghệ.",
+    "avoid_when": "Không đặt phụ đề hay chữ nhỏ đè lên phần lưới ở mép trên/dưới.",
+    "emotional_tone": ["serious", "neutral"],
+    "layout_role": "full_bg",
+    "visual_weight": "low"
+  },
+  "background/videoplayback-4.mp4": {
+    "name_display": "Lưới xanh lá phát sáng ở giữa — khung dọc",
+    "subtype": "green_glow_grid",
+    "description": "Lưới ô vuông xanh với quầng sáng xanh lá ở trung tâm, tối dần về biên.",
+    "use_when": "Hook về dữ liệu/công nghệ hoặc nhấn kết quả tích cực với thẻ nội dung tương phản.",
+    "avoid_when": "Không coi nền xanh là chroma key sạch; tránh chữ xanh hoặc trắng mảnh trên vùng sáng nhất.",
+    "emotional_tone": ["energetic", "curious"],
+    "layout_role": "full_bg",
+    "visual_weight": "high"
+  },
+  "background/videoplayback-5.mp4": {
+    "name_display": "Lưới phối cảnh xám ở hai đầu, giữa trắng — khung dọc",
+    "subtype": "white_perspective_frame",
+    "description": "Nền trắng với lưới xám phối cảnh phía trên/dưới mờ dần vào vùng trống trung tâm.",
+    "use_when": "Card giải thích, so sánh hoặc kết luận với chữ tối đặt ở vùng trắng giữa.",
+    "avoid_when": "Tránh chữ sáng và tránh đẩy nội dung dài vào hai vùng lưới.",
+    "emotional_tone": ["calm", "neutral"],
+    "layout_role": "full_bg",
+    "visual_weight": "low"
+  },
+  "background/videoplayback.mp4": {
+    "name_display": "Sóng chấm halftone xám trên trắng — khung dọc",
+    "subtype": "light_halftone_wave",
+    "description": "Nền trắng/xám sáng với các chấm nhỏ xếp thành mảng sóng, thay đổi nhẹ giữa khung mẫu.",
+    "use_when": "Giải thích khái niệm, checklist hoặc sơ đồ đơn giản với chữ đen và thẻ sáng.",
+    "avoid_when": "Không dùng chữ quá mảnh ở vùng chấm dày; kiểm tra moiré sau khi nén/thu nhỏ.",
+    "emotional_tone": ["calm", "neutral"],
+    "layout_role": "full_bg",
+    "visual_weight": "low"
+  }
+}

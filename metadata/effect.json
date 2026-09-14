@@ -1,0 +1,308 @@
+[
+  {
+    "id": "fx_underline_draw",
+    "category": "effect",
+    "name_display": "Underline Draw",
+    "subtype": "gạch chân tự vẽ (width 0% → 100%)",
+    "use_when": "Nhấn 1 từ khóa vừa được đọc xong trong cùng một ý.",
+    "avoid_when": "Không dùng cho cả câu dài — chỉ 1-3 từ khóa ngắn.",
+    "emotional_tone": [
+      "unknown"
+    ],
+    "pairs_well_with": [],
+    "tier": "micro",
+    "timing_hint_sec": 0.3,
+    "triggers_on": "word_boundary",
+    "source": {
+      "origin": "self-generated-code",
+      "url_or_path": "app/src (pattern, xem SKILL.md video-stack)",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "rough-notation"
+    },
+    "tech": {
+      "format": "code-pattern",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "rendered_smoke_test"
+    },
+    "implementation": {
+      "library": "rough-notation",
+      "api": "annotate(node, {type: 'underline'})"
+    }
+  },
+  {
+    "id": "fx_circle_highlight",
+    "category": "effect",
+    "name_display": "Circle Highlight",
+    "subtype": "khoanh tròn tự vẽ quanh 1 vùng/số liệu",
+    "use_when": "Khoanh vùng 1 con số hoặc icon quan trọng vừa xuất hiện.",
+    "avoid_when": "Không dùng đồng thời với underline trên cùng một phần tử.",
+    "emotional_tone": [
+      "unknown"
+    ],
+    "pairs_well_with": [],
+    "tier": "micro",
+    "timing_hint_sec": 0.4,
+    "triggers_on": "word_boundary",
+    "source": {
+      "origin": "self-generated-code",
+      "url_or_path": "app/src (pattern, xem SKILL.md video-stack)",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "rough-notation"
+    },
+    "tech": {
+      "format": "code-pattern",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "documented_pattern_untested"
+    },
+    "implementation": {
+      "library": "rough-notation",
+      "api": "annotate(node, {type: 'circle'})"
+    }
+  },
+  {
+    "id": "fx_card_scale_in",
+    "category": "effect",
+    "name_display": "Card Scale In",
+    "subtype": "card/box scale+rotate spring vào khung hình",
+    "use_when": "Mở đầu 1 card/chương mới, cần cảm giác 'bật vào' rõ ràng.",
+    "avoid_when": "Không lạm dụng cho mọi phần tử nhỏ trong cùng 1 card — chỉ 1 lần/card.",
+    "emotional_tone": [
+      "unknown"
+    ],
+    "pairs_well_with": [],
+    "tier": "chapter",
+    "timing_hint_sec": 1.0,
+    "triggers_on": "manual",
+    "source": {
+      "origin": "self-generated-code",
+      "url_or_path": "app/src (pattern, xem SKILL.md video-stack)",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "gsap"
+    },
+    "tech": {
+      "format": "code-pattern",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "rendered_smoke_test"
+    },
+    "implementation": {
+      "library": "gsap",
+      "api": "gsap.fromTo(node, {scale:0, rotate:-45}, {scale:1, rotate:0, ease:'back.out(1.7)'})",
+      "gotcha": "GSAP chạy theo đồng hồ thực; phải neo timeline theo frame/fps (xem SKILL.md video-stack) để khớp khi export MP4."
+    }
+  },
+  {
+    "id": "fx_stagger_fade_in_list",
+    "category": "effect",
+    "name_display": "Stagger Fade In List",
+    "subtype": "danh sách item fade+dịch lên lần lượt",
+    "use_when": "Liệt kê nhiều mục (>=3) cần xuất hiện tuần tự, không phải cùng lúc.",
+    "avoid_when": "Không dùng khi chỉ có 1-2 mục — dùng fx_card_scale_in thay thế.",
+    "emotional_tone": [
+      "unknown"
+    ],
+    "pairs_well_with": [],
+    "tier": "stamp",
+    "timing_hint_sec": 0.15,
+    "triggers_on": "sentence_end",
+    "source": {
+      "origin": "self-generated-code",
+      "url_or_path": "app/src (pattern, xem SKILL.md video-stack)",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "gsap"
+    },
+    "tech": {
+      "format": "code-pattern",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "documented_pattern_untested"
+    },
+    "implementation": {
+      "library": "gsap",
+      "api": "gsap.from(items, {opacity:0, y:20, stagger:0.15})",
+      "gotcha": "Cùng lưu ý đồng hồ thực như fx_card_scale_in."
+    }
+  },
+  {
+    "id": "fx_stamp_pop_item",
+    "category": "effect",
+    "name_display": "Stamp Pop Item",
+    "subtype": "1 item bật to rồi về đúng kích thước khi thêm vào bảng/checklist",
+    "use_when": "Thêm từng dòng vào bảng/checklist, đi kèm sfx_punctuation.",
+    "avoid_when": "Không dùng cho cảnh cần giữ yên tĩnh/nghiêm túc liên tục.",
+    "emotional_tone": [
+      "unknown"
+    ],
+    "pairs_well_with": [],
+    "tier": "stamp",
+    "timing_hint_sec": 0.25,
+    "triggers_on": "word_boundary",
+    "source": {
+      "origin": "self-generated-code",
+      "url_or_path": "app/src (pattern, xem SKILL.md video-stack)",
+      "license": "n/a",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "remotion"
+    },
+    "tech": {
+      "format": "code-pattern",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "documented_pattern_untested"
+    },
+    "implementation": {
+      "library": "remotion",
+      "api": "spring({frame, fps, config:{damping:10}}) áp vào scale"
+    }
+  },
+  {
+    "id": "fx_chapter_wipe_transition",
+    "category": "effect",
+    "name_display": "Chapter Wipe Transition",
+    "subtype": "chuyển chương bằng slide/wipe toàn khung hình",
+    "use_when": "Chuyển từ card này sang card khác ở ranh giới 1 chương/ý lớn.",
+    "avoid_when": "Không dùng giữa 2 câu trong cùng một ý — chỉ ở ranh giới chương.",
+    "emotional_tone": [
+      "unknown"
+    ],
+    "pairs_well_with": [],
+    "tier": "chapter",
+    "timing_hint_sec": 0.6,
+    "triggers_on": "manual",
+    "source": {
+      "origin": "self-generated-code",
+      "url_or_path": "app/src (pattern, xem SKILL.md video-stack)",
+      "license": "n/a",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "remotion"
+    },
+    "tech": {
+      "format": "code-pattern",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "documented_pattern_untested"
+    },
+    "implementation": {
+      "library": "remotion",
+      "api": "interpolate(frame, [0,18], [0,-width]) áp vào translateX của <AbsoluteFill>"
+    }
+  },
+  {
+    "id": "fx_hold_static_frame",
+    "category": "effect",
+    "name_display": "Hold Static Frame",
+    "subtype": "giữ khung hình tĩnh, không animation",
+    "use_when": "Card có bảng số liệu/nhiều chữ nhỏ cần người xem đọc, tránh phân tán chú ý.",
+    "avoid_when": "Không dùng cho card hook/mở bài cần gây ấn tượng ngay.",
+    "emotional_tone": [
+      "unknown"
+    ],
+    "pairs_well_with": [],
+    "tier": "hold",
+    "timing_hint_sec": null,
+    "triggers_on": "manual",
+    "source": {
+      "origin": "self-generated-code",
+      "url_or_path": "app/src (pattern, xem SKILL.md video-stack)",
+      "license": "n/a",
+      "attribution_required": false,
+      "license_status": "n/a",
+      "attribution_status": "not_required",
+      "collection": "self-generated-code"
+    },
+    "tech": {
+      "format": "code-pattern",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "rendered_smoke_test"
+    },
+    "implementation": {
+      "library": "self-generated-code",
+      "api": "không áp animation — render tĩnh trong toàn bộ durationInFrames"
+    }
+  },
+  {
+    "id": "fx_lottie_icon_loop",
+    "category": "effect",
+    "name_display": "Lottie Icon Loop",
+    "subtype": "icon chuyển động lặp (vd. loading, tia sáng, nhịp đập)",
+    "use_when": "Icon cần 'sống động' hơn SVG tĩnh, có sẵn file Lottie JSON phù hợp.",
+    "avoid_when": "Không dùng khi không có file Lottie JSON chất lượng — không tự vẽ Lottie bằng tay.",
+    "emotional_tone": [
+      "unknown"
+    ],
+    "pairs_well_with": [],
+    "tier": "micro",
+    "timing_hint_sec": null,
+    "triggers_on": "manual",
+    "source": {
+      "origin": "self-generated-code",
+      "url_or_path": "app/src (pattern, xem SKILL.md video-stack)",
+      "license": "MIT",
+      "attribution_required": false,
+      "license_status": "verified",
+      "attribution_status": "not_required",
+      "collection": "lottie-react"
+    },
+    "tech": {
+      "format": "code-pattern",
+      "editable_color": true,
+      "duration_sec": null
+    },
+    "review": {
+      "technical": "ok",
+      "license": "ok",
+      "semantic": "documented_pattern_untested"
+    },
+    "implementation": {
+      "library": "lottie-react",
+      "api": "<Lottie animationData={json} loop />"
+    }
+  }
+]

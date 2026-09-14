@@ -1,0 +1,953 @@
+[
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_1_052fd753e3",
+    "category": "background",
+    "name_display": "Đường đồng mức xám trên nền đen — 1080p",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (1).mkv",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mkv",
+      "editable_color": false,
+      "duration_sec": 60.0,
+      "has_video": true,
+      "has_audio": true,
+      "duration_basis": "packet_timestamps",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "video_codec": "vp9",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "16:9",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "audio_codec": "opus"
+    },
+    "file": {
+      "size_bytes": 18825632,
+      "sha256": "a6daba2f22231c1345193bcea0c54052c7d38298fd2b325a60d0f781c04b3d90"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "animated_topographic_dark",
+    "use_when": "Nền hook hoặc mở chương về hệ thống, phân tầng, khám phá; đặt tiêu đề sáng trên thẻ đặc.",
+    "avoid_when": "Không đặt bảng hoặc nhiều chữ nhỏ trực tiếp lên đường đồng mức dày.",
+    "emotional_tone": [
+      "serious",
+      "suspense"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "high",
+    "description": "Các đường đồng mức mảnh màu xám uốn lượn trên nền đen, phủ toàn khung ngang.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_1_3a1257e638",
+    "category": "background",
+    "name_display": "Hạt và vệt sáng nhỏ trên nền đen — ProRes 4K",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (1).mov",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mov",
+      "editable_color": false,
+      "duration_sec": 15.015,
+      "has_video": true,
+      "has_audio": true,
+      "duration_basis": "container",
+      "width": 3840,
+      "height": 2160,
+      "fps": 29.97003,
+      "video_codec": "prores",
+      "pixel_format": "yuv422p10le",
+      "aspect_ratio": "16:9",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "audio_codec": "pcm_s16le"
+    },
+    "file": {
+      "size_bytes": 230143364,
+      "sha256": "3831892769ed00a379b8c57b0c9a2c62245924c2e0087d2b752c8ef391764c80"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "dark_particle_texture",
+    "use_when": "Làm nền tối ít nổi cho card giải thích hoặc phủ texture nhẹ lên tư liệu bằng blend screen.",
+    "avoid_when": "Không coi là video có alpha; tránh tăng sáng texture tới mức lấn chữ.",
+    "emotional_tone": [
+      "serious",
+      "neutral"
+    ],
+    "layout_role": "overlay_texture",
+    "visual_weight": "low",
+    "description": "Nền đen với các chấm và vệt sáng nhỏ thưa, tạo bề mặt nhiễu tối.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_1_603b039478",
+    "category": "background",
+    "name_display": "Texture xước xám đen chuyển động — 4K",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (1).mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 5.171833,
+      "has_video": true,
+      "has_audio": true,
+      "duration_basis": "container",
+      "width": 3840,
+      "height": 2160,
+      "fps": 23.976024,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "16:9",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "audio_codec": "aac"
+    },
+    "file": {
+      "size_bytes": 27982563,
+      "sha256": "92fe38163cb3cefa94891a42c266b5f2ec16a9e253e9acee74292c66b5b4988f"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "animated_grunge_texture",
+    "use_when": "Tạo chất liệu thô cho hook, tình huống xung đột hoặc lớp phủ lên tư liệu với opacity thấp.",
+    "avoid_when": "Tránh phủ đậm lên bảng dữ liệu và chữ nhỏ; không mặc định nối loop liền mạch.",
+    "emotional_tone": [
+      "tense",
+      "serious"
+    ],
+    "layout_role": "overlay_texture",
+    "visual_weight": "high",
+    "description": "Các vệt xước sáng dày trên bề mặt xám đen, đổi hướng giữa các khung mẫu.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_1_076fbbf7a6",
+    "category": "background",
+    "name_display": "Đường đồng mức đen trên nền trắng — 1440p",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (1).webm",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "webm",
+      "editable_color": false,
+      "duration_sec": 92.333,
+      "has_video": true,
+      "has_audio": true,
+      "duration_basis": "packet_timestamps",
+      "width": 2560,
+      "height": 1440,
+      "fps": 30.0,
+      "video_codec": "vp9",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "16:9",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "audio_codec": "opus"
+    },
+    "file": {
+      "size_bytes": 60379705,
+      "sha256": "5561cb5fb3a750f70f2041448aa670b9dba2bc57f283629e9fa48a74eb8795e7"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "animated_topographic_light",
+    "use_when": "Mở chương, giới thiệu quan hệ hoặc cấu trúc; dùng thẻ trắng đặc để tách nội dung khỏi họa tiết.",
+    "avoid_when": "Không viết chữ đen nhỏ trực tiếp lên các nét đồng mức.",
+    "emotional_tone": [
+      "neutral",
+      "curious"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "high",
+    "description": "Đường đồng mức đen uốn lượn dày trên nền trắng, bố cục ngang.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_2_5c4d13bdf4",
+    "category": "background",
+    "name_display": "Đường đồng mức lớn trên nền trắng — MOV 4K",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (2).mov",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mov",
+      "editable_color": false,
+      "duration_sec": 6.64,
+      "has_video": true,
+      "has_audio": false,
+      "duration_basis": "container",
+      "width": 3840,
+      "height": 2160,
+      "fps": 25.0,
+      "video_codec": "mpeg4",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "16:9"
+    },
+    "file": {
+      "size_bytes": 113554412,
+      "sha256": "158c1d2a1ffbdba765ef0a226397d90a4cfda8ee6f74542f474b1043269ce59f"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "animated_topographic_light",
+    "use_when": "Nền cho tiêu đề ngắn, card khái niệm hoặc mở chương có bố cục trung tâm.",
+    "avoid_when": "Không đặt biểu đồ nhiều nét trực tiếp lên nền; clip ngắn cần kiểm tra điểm nối trước khi lặp.",
+    "emotional_tone": [
+      "neutral",
+      "curious"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "high",
+    "description": "Các vòng đồng mức lớn, nét đen mảnh trên trắng, thay đổi vị trí giữa các khung mẫu.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_2_8073bbf975",
+    "category": "background",
+    "name_display": "Lưới phối cảnh xám tối — khung dọc",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (2).mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 20.053375,
+      "has_video": true,
+      "has_audio": true,
+      "duration_basis": "container",
+      "width": 1080,
+      "height": 1920,
+      "fps": 29.97003,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "9:16",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "audio_codec": "aac"
+    },
+    "file": {
+      "size_bytes": 52022834,
+      "sha256": "3a88567421fa8f93a1fa5fd9c20687417ee449314de744201cf7f25178f0492f"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "dark_perspective_grid",
+    "use_when": "Nền ít nổi cho so sánh, sơ đồ hoặc card giải thích công nghệ với chữ sáng.",
+    "avoid_when": "Tránh dùng chữ tối hoặc các đường biểu đồ quá mảnh; kiểm tra tương phản sau khi nén video.",
+    "emotional_tone": [
+      "serious",
+      "neutral"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "low",
+    "description": "Lưới xám rất tối tạo cảm giác khung/hộp phối cảnh trên nền đen dọc.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_2_5d7780b300",
+    "category": "background",
+    "name_display": "Đường đồng mức trắng trên nền đen — 4K",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (2).webm",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "webm",
+      "editable_color": false,
+      "duration_sec": 60.033,
+      "has_video": true,
+      "has_audio": true,
+      "duration_basis": "packet_timestamps",
+      "width": 3840,
+      "height": 2160,
+      "fps": 30.0,
+      "video_codec": "vp9",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "16:9",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "audio_codec": "opus"
+    },
+    "file": {
+      "size_bytes": 77985848,
+      "sha256": "170b44ad734fa6f76be593f3a78bf86146b187deace6e184c7df0d4bb8fefc2b"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "animated_topographic_dark",
+    "use_when": "Nền hook hoặc chuyển chương về khám phá, cấu trúc và hệ thống với tiêu đề trên thẻ đặc.",
+    "avoid_when": "Tránh đặt chữ trắng hoặc sơ đồ nhiều nét trực tiếp lên họa tiết.",
+    "emotional_tone": [
+      "serious",
+      "suspense"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "high",
+    "description": "Đường đồng mức sáng, tương phản rõ trên nền đen; vòng lớn hơn bản MKV (1).",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_3_d9cd3d21c4",
+    "category": "background",
+    "name_display": "Bụi và vết xước phim cũ — nền đen",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (3).mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 80.062404,
+      "has_video": true,
+      "has_audio": true,
+      "duration_basis": "container",
+      "width": 1920,
+      "height": 1080,
+      "fps": 25.0,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "16:9",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "audio_codec": "aac"
+    },
+    "file": {
+      "size_bytes": 19211807,
+      "sha256": "9a88680ad495e12a25eba66e46eb9cfe8655675e3a19f12dae1f1f8d74edeaef"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "film_dust_scratches",
+    "use_when": "Lớp phủ nhẹ cho cảnh lịch sử, hồi tưởng hoặc trích dẫn tư liệu; dùng blend screen để bỏ nền đen.",
+    "avoid_when": "Không coi là có alpha; tránh phủ lên chữ nhỏ hoặc giao diện cần sắc nét.",
+    "emotional_tone": [
+      "nostalgic",
+      "serious"
+    ],
+    "layout_role": "overlay_texture",
+    "visual_weight": "low",
+    "description": "Chấm bụi, vệt dọc và sợi xước sáng rải trên nền đen, giống chất liệu phim cũ.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_4_bb7e43880a",
+    "category": "background",
+    "name_display": "Sóng chấm halftone tối — 4K",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (4).mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 13.980633,
+      "has_video": true,
+      "has_audio": false,
+      "duration_basis": "container",
+      "width": 3840,
+      "height": 2160,
+      "fps": 29.97003,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "16:9"
+    },
+    "file": {
+      "size_bytes": 138276981,
+      "sha256": "20f823d65de2db378ff48a81152c13db1466298d161329fa7356c22543853978"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "dark_halftone_wave",
+    "use_when": "Nền cho phần giải thích, số liệu hoặc kết luận với chữ sáng và điểm nhấn màu.",
+    "avoid_when": "Không dùng chữ xám tối; kiểm tra moiré khi thu nhỏ họa tiết chấm.",
+    "emotional_tone": [
+      "calm",
+      "serious"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "low",
+    "description": "Các chấm xám nhỏ kết thành mảng sóng mềm trên nền đen, tương phản thấp.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_motion_backgrounds_by_gstaikdesigns_5_3ca64deefe",
+    "category": "background",
+    "name_display": "Mảng đường viền hữu cơ xám trên đen — 4K",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/Motion Backgrounds by GstaikDesigns (5).mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 10.0,
+      "has_video": true,
+      "has_audio": false,
+      "duration_basis": "container",
+      "width": 3840,
+      "height": 2160,
+      "fps": 30.0,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "16:9"
+    },
+    "file": {
+      "size_bytes": 49715867,
+      "sha256": "bf78c53445108b98753127379b56202c021247e0e10113e9a367cf96606ca22b"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "organic_contour_dark",
+    "use_when": "Hook hoặc mở chương về mạng lưới, phân bố hay chủ đề trừu tượng; đặt nội dung trên thẻ đặc.",
+    "avoid_when": "Không coi họa tiết là bản đồ địa lý thật; tránh cạnh tranh với sơ đồ nhiều đường.",
+    "emotional_tone": [
+      "curious",
+      "serious"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "high",
+    "description": "Đường viền xám mảnh tạo thành nhiều mảng hữu cơ rời nhau trên nền đen.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_ytsave_shorts_grid_pattern_black_white_stripe_edit_e_media_adi0gqtpky8_4817da3da2",
+    "category": "background",
+    "name_display": "Lưới ô vuông xám trên đen — khung dọc",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/YTSave_Shorts_Grid-Pattern-Black-_-white-stripe-Edit-E_Media_adI0gqtpkY8_001_1080p.mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 15.069751,
+      "has_video": true,
+      "has_audio": true,
+      "duration_basis": "container",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "9:16",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "audio_codec": "aac"
+    },
+    "file": {
+      "size_bytes": 1005640,
+      "sha256": "b793d20db054c91bcedc876bd1faef8df44078654ce1fb9fbb9fafddc020e532"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified",
+      "reference_reason": "downloaded_video_filename; source/license pending"
+    },
+    "subtype": "dark_square_grid",
+    "use_when": "Nền có cấu trúc cho checklist, so sánh hoặc sơ đồ với các thẻ sáng phân biệt rõ.",
+    "avoid_when": "Không để lưới nền lẫn với đường trục biểu đồ; tránh chữ xám quá mảnh.",
+    "emotional_tone": [
+      "neutral",
+      "serious"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "low",
+    "description": "Lưới ô vuông mảnh xám phủ khung dọc màu đen.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    },
+    "reference_only": true,
+    "replaced_by": null
+  },
+  {
+    "id": "bg_ytsave_shorts_paper_background_reels_shorts_edit_eleme_media_93mzmcavu_75d1923736",
+    "category": "background",
+    "name_display": "Giấy trắng nhăn nhẹ — khung dọc",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/YTSave_Shorts_Paper-Background-Reels-Shorts-Edit-Eleme_Media_93mZmCavULI_001_1080p.mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 15.069751,
+      "has_video": true,
+      "has_audio": true,
+      "duration_basis": "container",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "9:16",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "audio_codec": "aac"
+    },
+    "file": {
+      "size_bytes": 5150106,
+      "sha256": "4ee9f582cffaf8722328b129d77ad1e9e5ec55b36de2e1505e0f726e0ae36db4"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified",
+      "reference_reason": "downloaded_video_filename; source/license pending"
+    },
+    "subtype": "white_crumpled_paper",
+    "use_when": "Giải thích khái niệm, ghi chú, danh sách hoặc trích dẫn với chữ đen và gạch chân vẽ tay.",
+    "avoid_when": "Tránh chữ trắng hoặc sắc xám quá nhạt; không xếp thêm nhiều texture lên mặt giấy.",
+    "emotional_tone": [
+      "calm",
+      "neutral"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "low",
+    "description": "Bề mặt giấy trắng/xám nhăn nhẹ phủ toàn khung dọc.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    },
+    "reference_only": true,
+    "replaced_by": null
+  },
+  {
+    "id": "bg_videoplayback_2_14240f2dde",
+    "category": "background",
+    "name_display": "Hình học đỏ và hồng, khoảng trống giữa — khung dọc",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/videoplayback-2.mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 10.633333,
+      "has_video": true,
+      "has_audio": false,
+      "duration_basis": "container",
+      "width": 1080,
+      "height": 1920,
+      "fps": 60.0,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "9:16"
+    },
+    "file": {
+      "size_bytes": 1991989,
+      "sha256": "1d6036457f1233bc6e2d68b5505fb144dfb3b486e56e68c1b015437ff8a691a6"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "red_geometric_frame",
+    "use_when": "Hook, câu hỏi lớn hoặc lời kêu gọi hành động với một tiêu đề ngắn ở trung tâm.",
+    "avoid_when": "Tránh bảng dày chữ hoặc dùng màu đỏ khi kịch bản dễ bị hiểu thành cảnh báo không chủ ý.",
+    "emotional_tone": [
+      "energetic",
+      "playful"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "high",
+    "description": "Nền đỏ sẫm với mảng cong hồng, vòng tròn và nét chéo sáng quanh biên; giữa khá trống.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_videoplayback_3_dbefaa829b",
+    "category": "background",
+    "name_display": "Lưới phối cảnh trắng ở hai đầu, giữa đen — khung dọc",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/videoplayback-3.mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 14.0,
+      "has_video": true,
+      "has_audio": false,
+      "duration_basis": "container",
+      "width": 1080,
+      "height": 1920,
+      "fps": 24.0,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "9:16"
+    },
+    "file": {
+      "size_bytes": 3299719,
+      "sha256": "db53f4f793cfbe203813314e216b13dd2080eafe5a924ca5ecac3d5cab3546d1"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "black_perspective_frame",
+    "use_when": "Đặt định nghĩa, con số hoặc sơ đồ ở vùng đen trung tâm; phù hợp giải thích công nghệ.",
+    "avoid_when": "Không đặt phụ đề hay chữ nhỏ đè lên phần lưới ở mép trên/dưới.",
+    "emotional_tone": [
+      "serious",
+      "neutral"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "low",
+    "description": "Lưới trắng phối cảnh ở phía trên và dưới, vùng giữa đen rộng để đặt nội dung.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_videoplayback_4_c8053abe54",
+    "category": "background",
+    "name_display": "Lưới xanh lá phát sáng ở giữa — khung dọc",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/videoplayback-4.mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 20.02,
+      "has_video": true,
+      "has_audio": false,
+      "duration_basis": "container",
+      "width": 1080,
+      "height": 1920,
+      "fps": 29.97003,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "9:16"
+    },
+    "file": {
+      "size_bytes": 4314404,
+      "sha256": "0129ed55c65ba7d448f30292fd1f94df9f40fe517c7abc74944d5fa3d7a8d669"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "green_glow_grid",
+    "use_when": "Hook về dữ liệu/công nghệ hoặc nhấn kết quả tích cực với thẻ nội dung tương phản.",
+    "avoid_when": "Không coi nền xanh là chroma key sạch; tránh chữ xanh hoặc trắng mảnh trên vùng sáng nhất.",
+    "emotional_tone": [
+      "energetic",
+      "curious"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "high",
+    "description": "Lưới ô vuông xanh với quầng sáng xanh lá ở trung tâm, tối dần về biên.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_videoplayback_5_9878812abd",
+    "category": "background",
+    "name_display": "Lưới phối cảnh xám ở hai đầu, giữa trắng — khung dọc",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/videoplayback-5.mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 20.04,
+      "has_video": true,
+      "has_audio": false,
+      "duration_basis": "container",
+      "width": 1080,
+      "height": 1920,
+      "fps": 25.0,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "9:16"
+    },
+    "file": {
+      "size_bytes": 2867063,
+      "sha256": "ee7e8d0ee634d2bfb2bfeb4952cd197ff69a942ca4ca3183263eae998d4b1fb2"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "white_perspective_frame",
+    "use_when": "Card giải thích, so sánh hoặc kết luận với chữ tối đặt ở vùng trắng giữa.",
+    "avoid_when": "Tránh chữ sáng và tránh đẩy nội dung dài vào hai vùng lưới.",
+    "emotional_tone": [
+      "calm",
+      "neutral"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "low",
+    "description": "Nền trắng với lưới xám phối cảnh phía trên/dưới mờ dần vào vùng trống trung tâm.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  },
+  {
+    "id": "bg_videoplayback_db3c6ab7c4",
+    "category": "background",
+    "name_display": "Sóng chấm halftone xám trên trắng — khung dọc",
+    "pairs_well_with": [],
+    "source": {
+      "origin": "other",
+      "url_or_path": "background/videoplayback.mp4",
+      "license": "unknown",
+      "attribution_required": true,
+      "license_status": "unverified",
+      "attribution_status": "unverified",
+      "collection": "background"
+    },
+    "tech": {
+      "format": "mp4",
+      "editable_color": false,
+      "duration_sec": 16.099417,
+      "has_video": true,
+      "has_audio": false,
+      "duration_basis": "container",
+      "width": 1080,
+      "height": 1920,
+      "fps": 23.976024,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "aspect_ratio": "9:16"
+    },
+    "file": {
+      "size_bytes": 3503654,
+      "sha256": "22b483b5bde5f991013795b2c99d66af0f1dfcd3014c94f0dc9a7690aaf992d9"
+    },
+    "review": {
+      "technical": "ok",
+      "license": "pending",
+      "semantic": "sampled_frames_reviewed",
+      "evidence": "frames_at_10_50_90_percent",
+      "loop": "not_verified"
+    },
+    "subtype": "light_halftone_wave",
+    "use_when": "Giải thích khái niệm, checklist hoặc sơ đồ đơn giản với chữ đen và thẻ sáng.",
+    "avoid_when": "Không dùng chữ quá mảnh ở vùng chấm dày; kiểm tra moiré sau khi nén/thu nhỏ.",
+    "emotional_tone": [
+      "calm",
+      "neutral"
+    ],
+    "layout_role": "full_bg",
+    "visual_weight": "low",
+    "description": "Nền trắng/xám sáng với các chấm nhỏ xếp thành mảng sóng, thay đổi nhẹ giữa khung mẫu.",
+    "playback": {
+      "mute_source_audio": true,
+      "loop_verified": false
+    }
+  }
+]
